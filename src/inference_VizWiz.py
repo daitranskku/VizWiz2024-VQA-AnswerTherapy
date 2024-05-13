@@ -26,7 +26,6 @@ viz_wiz_data_train_annotation_path = os.path.join(vizwiz_data_base_path, 'VizWiz
 
 pretrained_model = 'vilt-b32-finetuned-vqa'
 model_folder = os.path.join('../ViLT', pretrained_model)
-#finetune_folder = os.path.join('/SSD/data/HoangVN/VQA_therapy/ViLT/my_finetune', "custom_train_using__" + pretrained_model)
 finetune_folder = '../ViLT/my_finetune/custom_vqa_vilt-b32-finetuned-vqa'
 
 processor = ViltProcessor.from_pretrained(model_folder)

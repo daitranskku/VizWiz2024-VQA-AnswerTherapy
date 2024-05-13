@@ -10,7 +10,7 @@ from PIL import Image, ImageDraw
 from poly_utils import is_clockwise, revert_direction, check_length, reorder_points, \
     approximate_polygons, interpolate_polygons, image_to_base64, polygons_to_string
 
-vizwiz_data_base_path = '/SSD/data/HoangVN/VQA_therapy/dataset'
+vizwiz_data_base_path = '../dataset'
 viz_wiz_data_train_image_dir = os.path.join(vizwiz_data_base_path, 'train')
 viz_wiz_data_train_annotation_path = os.path.join(vizwiz_data_base_path, 'VizWiz_train.json')
 
